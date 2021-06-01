@@ -21,3 +21,9 @@ From the general context, using a cloud based software comes on with many advant
 **Perform Deserialization:** When the message from Queue is received, deserialization is performed, and the code gets triggered. The process of deserialization is needed here .Download input file from blob storage: Once the code gets triggered it will start downloading the input file from the Azure blob storage. 
 
 **Run the testcases of Serialization of Spatial Pooler:** Since the required input file has already been downloaded the testcases should successfully executed taking that input as an argument.Download first output file from blob storage: The output file will be downloaded in order to subsequently check if it works with the deserializer function of spatial pooler and recreate the same spatial pooler object.
+
+**Use the downloaded file in Spatial Pooler Deserialization function:** The downloaded file will be fed to deserializer function. Same instance of Spatial Pooler will be recreated.
+
+**Upload Result/Output file to table and blob storage:** The output of the testcases will be uploaded to both table and blob storage.
+
+**Delete message from Queue:** At last the queue message which we sent earlier to trigger the training process will be deleted.
