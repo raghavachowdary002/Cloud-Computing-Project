@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+    <PackageReference Include="DotNetZip" Version="1.13.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCloudProject.Common\MyCloudProject.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AkkaSb.Net">
+      <HintPath>..\Nuget\AkkaSb.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="DistributedComputeLib">
+      <HintPath>..\Nuget\DistributedComputeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmAkkaHost">
+      <HintPath>..\Nuget\HtmAkkaHost.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexApi">
+      <HintPath>..\Nuget\NeoCortexApi.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexArrayLib">
+      <HintPath>..\Nuget\NeoCortexArrayLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexEntities">
+      <HintPath>..\Nuget\NeoCortexEntities.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexUtils">
+      <HintPath>..\Nuget\NeoCortexUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="UnitTestsProject">
+      <HintPath>..\Nuget\UnitTestsProject.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocketNeuroVisualizer">
+      <HintPath>..\Nuget\WebSocketNeuroVisualizer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

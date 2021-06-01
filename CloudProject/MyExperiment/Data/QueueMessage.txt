@@ -1,0 +1,6 @@
+﻿{
+     "ExperimentId" : "ML 19/20 - 5.8",
+     "InputFile" : "https://aniklogu.blob.core.windows.net/anikblobcontainer/InputData.json", 
+     "Name" : "Testing input1.json",
+     "Description" : "project review"
+ }
